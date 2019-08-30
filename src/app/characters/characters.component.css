@@ -35,7 +35,7 @@ ul {
   .personName {
     font-size: 1.2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #ffe600;
+    color: #757234;
     list-style-image: url("star2.png");
     text-shadow: 4px 4px 4px #686868;
   }
@@ -45,4 +45,47 @@ ul {
   li {
     color: black;
     list-style: circle;
+    font-family: 'Roboto', sans-serif;
+  }
+  .fetchedName{
+    color:tomato;
+    text-shadow: 4px 4px 4px #454545
+  }
+
+  footer {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
+  .footer-img {
+    position: absolute;
+    bottom: 0;
+    width: 190px;
+    margin: 0;
+    right: 40px;
+    transform: scaleX(-1);
+  }
+  .yellow-line {
+    position: absolute;
+    background-color: #ffd900;
+    height: 150px;
+    width: 2000px;
+    bottom: 0;
+    transform: rotate(-8deg);
+  }
+  .divider {
+    color: #ffd900;
+    display: block;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 500px;
+    margin-left: 10px;
   }
