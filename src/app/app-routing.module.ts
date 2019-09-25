@@ -37,7 +37,7 @@ const Routes: Routes = [
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
     AppComponent,
     CharactersComponent,
     PlanetsComponent,
@@ -48,9 +48,9 @@ const Routes: Routes = [
   imports: [
     RouterModule.forRoot(Routes),
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
     AppRoutingModule,
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent]}
